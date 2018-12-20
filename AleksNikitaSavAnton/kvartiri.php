@@ -5,7 +5,7 @@
  </head>
  <body>
 	<?php
-	printf('<P>Hello world! Searching for every human:</P> %s',"\n");
+	printf('<P>Hello world! Searching for every kvartiri:</P> %s',"\n");
 
 	$link = mysqli_connect('10.14.129.132', 'AlekseevNikita', '9YFJ9skR','AlekseevNikitaDB')
 	    or die('Error: Unable to connect: ' . mysqli_connect_error());
@@ -53,7 +53,7 @@
           		  	kratk opsi: <input type="text" name="kratk">
           		  	<br>
 				4elovek_id_4elovek: 
-					<select name="4i4">
+					<select name="cic">
 					<?php 
 		                        include('config.php');	
 					$link = mysqli_connect($server, $user, $password, $database)					
@@ -69,8 +69,8 @@
 					mysqli_close($link);
 					?>
 					</select>
-          		  	komissia: <input type="text" name="komissia">
           		  	<br>
+          		  	komissia: <input type="text" name="komissia">
 				<br>
             		  	<input type="submit" value="Add kvartira">
       			  </form>
