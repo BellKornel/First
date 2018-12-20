@@ -8,7 +8,7 @@ $ploshad = mysqli_real_escape_string($link, $_POST['ploshad']);
 $count_komnat = mysqli_real_escape_string($link, $_POST['count_komnat']);
 $etazh = mysqli_real_escape_string($link, $_POST['etazh']);
 $kratk = mysqli_real_escape_string($link, $_POST['kratk']);
-$4i4 = mysqli_real_escape_string($link, $_POST['4i4']);
+$cic = mysqli_real_escape_string($link, $_POST['cic']);
 $komissia = mysqli_real_escape_string($link, $_POST['komissia']);
 
 echo $adres;
@@ -16,10 +16,10 @@ echo $ploshad;
 echo $count_komnat;
 echo $etazh;
 echo $kratk;
-echo $4i4;
+echo $cic;
 echo $komissia;
 
-$SQLquery = "INSERT INTO kvartiri (id_kvartiri, adres, ploshad, count komnat, etazh, kratk, 4i4, komissia) VALUES ((SELECT max(id_kvartiri)+1 from (Select id_kvartiri from kvartiri) as id_kvartiri), $adres,'$ploshad',$count_komnat, $etazh, $kratk, $4i4, $komissia)";
+$SQLquery = "INSERT INTO kvartiri (id_kvartiri, adres, ploshad, count komnat, etazh, kratkoe opisanie, 4elovek_id_4elovek, komissia) VALUES ((SELECT max(id_kvartiri)+1 from (Select id_kvartiri from kvartiri) as id_kvartiri), $adres,'$ploshad',$count_komnat, $etazh, $kratk, $cic, $komissia)";
 echo '<BR> SQL query: ';
 echo $SQLquery;
 
