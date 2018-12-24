@@ -53,7 +53,7 @@
           		  	kratk opsi: <input type="text" name="kratk">
           		  	<br>
 				4elovek_id_4elovek: 
-					<select name="cic">
+					<select name="4elovek_id_4elovek">
 					<?php 
 		                        include('config.php');	
 					$link = mysqli_connect($server, $user, $password, $database)					
