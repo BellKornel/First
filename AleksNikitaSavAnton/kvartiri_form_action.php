@@ -8,7 +8,7 @@ $ploshad = mysqli_real_escape_string($link, $_POST['ploshad']);
 $count_komnat = mysqli_real_escape_string($link, $_POST['count_komnat']);
 $etazh = mysqli_real_escape_string($link, $_POST['etazh']);
 $kratk = mysqli_real_escape_string($link, $_POST['kratk']);
-$cic = mysqli_real_escape_string($link, $_POST['cic']);
+$4elovek_id_4elovek = mysqli_real_escape_string($link, $_POST['4elovek_id_4elovek']);
 $komissia = mysqli_real_escape_string($link, $_POST['komissia']);
 
 echo $adres;
