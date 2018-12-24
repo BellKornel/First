@@ -21,7 +21,7 @@
 	printf('	<TH>count komnat</TH> %s',"\n");
 	printf('	<TH>etazh</TH> %s',"\n");
 	printf('	<TH>kratkoe opisanie</TH> %s',"\n");
-	printf('	<TH>4elovek</TH> %s',"\n");
+	printf('	<TH>4elovek_id_4elovek</TH> %s',"\n");
 	printf('	<TH>komissia</TH> %s',"\n");
 	printf('</TR> %s',"\n");
 
@@ -46,13 +46,13 @@
           		  	<br>
           		  	ploshad: <input type="text" name="ploshad">
           		  	<br>
-          		  	count_komnat: <input type="text" name="count_komnat">
+          		  	count komnat: <input type="text" name="count_komnat">
           		  	<br>
           		  	etazh: <input type="text" name="etazh">
           		  	<br>
           		  	kratk opsi: <input type="text" name="kratk">
           		  	<br>
-				4elovek_id_4elovek: 
+				4elovek: 
 					<select name="4elovek_id_4elovek">
 					<?php 
 		                        include('config.php');	
