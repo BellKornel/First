@@ -21,7 +21,7 @@
 	printf('	<TH>count komnat</TH> %s',"\n");
 	printf('	<TH>etazh</TH> %s',"\n");
 	printf('	<TH>kratkoe opisanie</TH> %s',"\n");
-	printf('	<TH>4elovek_id_4elovek</TH> %s',"\n");
+	printf('	<TH>4elovek</TH> %s',"\n");
 	printf('	<TH>komissia</TH> %s',"\n");
 	printf('</TR> %s',"\n");
 
