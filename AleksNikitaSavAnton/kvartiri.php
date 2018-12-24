@@ -50,7 +50,7 @@
           		  	<br>
           		  	etazh: <input type="text" name="etazh">
           		  	<br>
-          		  	kratk opisanie: <input type="text" name="kratk">
+          		  	kratkoe opisanie: <input type="text" name="kratk">
           		  	<br>
 				4elovek: 
 					<select name="cic">
