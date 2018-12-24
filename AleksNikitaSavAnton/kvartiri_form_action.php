@@ -19,7 +19,7 @@ echo $kratk;
 echo $cic;
 echo $komissia;
 
-$SQLquery = "INSERT INTO kvartiri (id_kvartiri, adres, ploshad, count komnat, etazh, kratkoe opisanie, 4elovek_id_4elovek, komissia) VALUES ((SELECT max(id_kvartiri)+1 from (Select id_kvartiri from kvartiri) as id_kvartiri), $adres,'$ploshad',$count_komnat, $etazh, $kratk, $cic, $komissia)";
+$SQLquery = "INSERT INTO kvartiri (id_kvartiri, adres, ploshad, count komnat, etazh, kratkoe opisanie, 4elovek_id_4elovek, komissia) VALUES ((SELECT max(id_kvartiri)+1 from (Select id_kvartiri from kvartiri) as id_kvartiri), $adres,$ploshad,$count_komnat, $etazh, $kratk, $cic, $komissia)";
 echo '<BR> SQL query: ';
 echo $SQLquery;
 
